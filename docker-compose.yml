@@ -1,0 +1,6 @@
+services:
+  web:
+    image: devops-app
+    container_name: my-app
+    ports:
+      - "8080:80"
